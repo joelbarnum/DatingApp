@@ -9,4 +9,5 @@
 -- VALUES (1, "Jane");
 
 SELECT * FROM Users;
+SELECT * FROM Photos;
 
