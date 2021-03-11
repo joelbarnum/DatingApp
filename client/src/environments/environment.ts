@@ -2,8 +2,11 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+import { Http2ServerRequest } from "node:http2";
+
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://localhost:5001/api/'
 };
 
 /*
