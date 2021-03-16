@@ -30,6 +30,7 @@ export class MemberEditComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadMember();
+    console.log(this.user.username);
   }
 
   loadMember(){

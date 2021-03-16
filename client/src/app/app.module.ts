@@ -23,6 +23,7 @@ import { ServerErrorComponent } from './errors/server-error/server-error.compone
 import { MemberCardComponent } from './members/member-card/member-card.component';
 import { JwtInterceptor } from './_interceptors/jwt.interceptor';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
+import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 // import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 // import { NgxSpinnerModule } from "ngx-spinner";
 
@@ -40,7 +41,8 @@ import { MemberEditComponent } from './members/member-edit/member-edit.component
     NotFoundComponent,
     ServerErrorComponent,
     MemberCardComponent,
-    MemberEditComponent
+    MemberEditComponent,
+    PhotoEditorComponent
   ],
   imports: [
     BrowserModule,
