@@ -1,6 +1,6 @@
 <h1 *ngIf="user">{{user.username}} this works</h1>
-<h1 style="margin-top: 100px;">The margin-top is set to 100 px</h1>
-<div class="row" *ngIf="member">
+<h1 style="margin-top: 100px;">todo member info does not load, undefined in the console</h1>
+<div class="row" *ngIf="user">
     <div class="col-4">
         <h1>Your Profile</h1>
     </div>
@@ -11,7 +11,7 @@
     </div>
     <div class="col-4">
         <div class="card">
-            <img src="{{member.photoUrl || './asset/user.png'}}" alt="{{member.knownAs}}"
+            <img src="{{user.photoUrl || './asset/user.png'}}" alt="{{member.knownAs}}"
             class="card-img-top img-thumbnail">
             <div class="card-body">
                 <div>
