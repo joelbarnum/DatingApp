@@ -8,6 +8,6 @@
 -- INSERT INTO Users (Id, UserName)
 -- VALUES (1, "Jane");
 
-SELECT * FROM Users;
+SELECT * FROM Likes;
 SELECT * FROM Photos;
 
