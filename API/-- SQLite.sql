@@ -10,4 +10,10 @@
 
 SELECT * FROM Likes;
 SELECT * FROM Photos;
+SELECT * FROM AppUser;
+SELECT * FROM Messages;
+SELECT * FROM AspNetRoles;
+SELECT * FROM AspNetUserRoles;
+
+
 
